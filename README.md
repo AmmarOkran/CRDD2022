@@ -22,7 +22,7 @@ All the trained models can be downloaded from [here](https://drive.google.com/dr
 
 3. Start the inference:
 
-### - For all countries
+#### - For all countries
 ```Shell
     # inference using ensemble model for all countries test dataset
     python detect.py --weights trined_models_paths --img 832 --source path-to-all-countries-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry All_countries
