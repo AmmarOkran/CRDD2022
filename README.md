@@ -25,29 +25,29 @@ All the trained models can be downloaded from [here](https://drive.google.com/dr
 ### - For all countries
 ```Shell
     # inference using ensemble model for all countries test dataset
-    python detect.py --weights trined_models paths --img 640 --source path-to-all-countries-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry All_countries
+    python detect.py --weights trined_models paths --img 832 --source path-to-all-countries-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry All_countries
 ```
 
 ### - India
 ```Shell
-    # inference using ensemble model for all countries test dataset
-    python detect.py --weights trined_models paths --img 640 --source path-to-India-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry India
+    # inference using ensemble model for India test dataset
+    python detect.py --weights trined_models paths --img 832 --source path-to-India-test-dataset --conf-thres 0.30 --iou-thres 0.9999 --agnostic-nms --augment --cntry India
 ```
 
 ### - Japan
 ```Shell
-    # inference using ensemble model for all countries test dataset
-    python detect.py --weights trined_models paths --img 640 --source path-to-Japan-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry Japan
+    # inference using ensemble model for Japan test dataset
+    python detect.py --weights trined_models paths --img 832 --source path-to-Japan-test-dataset --conf-thres 0.30 --iou-thres 0.9999 --agnostic-nms --augment --cntry Japan
 ```
 
 ### - Norway
 ```Shell
-    # inference using ensemble model for all countries test dataset
-    python detect.py --weights trined_models paths --img 640 --source path-to-Norway-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry Norway
+    # inference using ensemble model for Norway test dataset
+    python detect.py --weights trined_models paths --img 1664 --source path-to-Norway-test-dataset --conf-thres 0.20 --iou-thres 0.9999 --agnostic-nms --augment --cntry Norway
 ```
 
 ### - United States
 ```Shell
-    # inference using ensemble model for all countries test dataset
-    python detect.py --weights trined_models paths --img 640 --source path-to-United_States-test-dataset --conf-thres 0.32 --iou-thres 0.9999 --agnostic-nms --augment --cntry United_States
+    # inference using ensemble model for United States test dataset
+    python detect.py --weights trined_models paths --img 832 --source path-to-United_States-test-dataset --conf-thres 0.30 --iou-thres 0.9999 --agnostic-nms --augment --cntry United_States
 ```
