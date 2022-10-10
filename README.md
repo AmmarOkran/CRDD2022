@@ -13,7 +13,6 @@ You need to install:
 - Use `requirements.txt` to install required python dependencies
 
     ```Shell
-    # Python >= 3.6 is needed
     pip install -r requirements.txt
     ```
 ## Training
