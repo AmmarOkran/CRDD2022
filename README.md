@@ -6,6 +6,16 @@ Crowdsensing-based Road Damage Detection Challenge (CRDDC2022)
 
 This repository contains source code and trained models for [Crowdsensing-based Road Damage Detection and Classification Challenge](https://crddc2022.sekilab.global/overview/) that was held as part of 2022 IEEE Big Data conference.
 
+## Prerequisites
+
+You need to install:
+- [Python3 >= 3.6](https://www.python.org/downloads/)
+- Use `requirements.txt` to install required python dependencies
+
+    ```Shell
+    # Python >= 3.6 is needed
+    pip install -r requirements.txt
+    ```
 ## Training
 
 ## Submission
