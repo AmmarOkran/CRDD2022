@@ -10,6 +10,7 @@ This repository contains source code and trained models for [Crowdsensing-based 
 
 All the trained models can be downloaded from [here](https://drive.google.com/drive/folders/1NO5Svrj5wY0lpe3xSKqZGGBJFsI-YLHW?usp=sharing).
 
+### Training
 
 ### Inference
 
@@ -51,3 +52,10 @@ All the trained models can be downloaded from [here](https://drive.google.com/dr
     # inference using ensemble model for United States test dataset
     python detect.py --weights trined_models_paths --img 832 --source path-to-United_States-test-dataset --conf-thres 0.30 --iou-thres 0.9999 --agnostic-nms --augment --cntry United_States
 ```
+
+## All ensemble models
+| Ensemble model | Yolov7(trained from scratch) | Yolov7(fine-tuned) | Yolov7x(fine-tuned) | Yolov7x with ASPP | Yolov7-e6e(multi-scale) | Yolov7-e6e(All Countries) | Yolov7-e6e(Just Norway) |
+|----------------|------------------------------|--------------------|---------------------|-------------------|-------------------------|--------------------------|-------------------------|
+| Model 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                |                         |                       |                          |
+
+
