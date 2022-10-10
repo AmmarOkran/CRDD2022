@@ -74,6 +74,6 @@ All the trained models can be downloaded from [here](https://drive.google.com/dr
 | Model 1 | India | **0.517735600502415** |
 | Model 3 | Norway | **0.498392411476723** |
 | Model 2 | United States | **0.778857992128306** |
-| **F1-score Average**     |   | **0.651167** |
+| **F1-score Average** |  | **0.651167126403799** |
 
 
