@@ -57,5 +57,22 @@ All the trained models can be downloaded from [here](https://drive.google.com/dr
 | Ensemble model | Yolov7(trained from scratch) | Yolov7(fine-tuned) | Yolov7x(fine-tuned) | Yolov7x with ASPP | Yolov7-e6e(multi-scale) | Yolov7-e6e(All Countries) | Yolov7-e6e(Just Norway) |
 |----------------|------------------------------|--------------------|---------------------|-------------------|-------------------------|--------------------------|-------------------------|
 | Model 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                |                         |                       |                          |
+| Model 2 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                  | :heavy_check_mark: |                         |                       |                          |
+| Model 3 |                    |                    |                    |                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+
+
+
+
+
+## Performance on CRDDC2022 test datasets
+
+
+| Ensemble model | Country test dataset | F1-score |
+|----------------|--------------------- |----------|
+| Model 1 | All countries | **0.726267534039815** |
+| Model 1 | Japan | **0.734582093871738** |
+| Model 1 | India | **0.517735600502415** |
+| Model 3 | Norway | **0.498392411476723** |
+| Model 2 | United States | **0.778857992128306** |
 
 
