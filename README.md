@@ -64,7 +64,7 @@ All the trained models can be downloaded from [here](https://drive.google.com/dr
 
 
 
-## Performance on CRDDC2022 test datasets
+## The F1 score of CRDDC2022 challenge 
 
 
 | Ensemble model | Country test dataset | F1-score |
